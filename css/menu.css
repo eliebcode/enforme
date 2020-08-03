@@ -1,0 +1,922 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+span{
+    color: #FF6a00;
+}
+
+/* Scroll Btn*/
+
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(255,106,0,1) 0%, rgba(138,43,226,1) 100%);
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    border-radius: 50px;
+}
+
+.gotopbtn:hover{
+    background: linear-gradient(90deg, rgba(138,43,226,1) 0%, rgba(255,106,0,1) 100%);
+    color: white;
+}
+
+
+/* Section Header */
+
+
+.promo{
+    background: linear-gradient(90deg, rgba(255,106,0,1) 0%, rgba(138,43,226,1) 100%);
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.promo a{
+    color: #fff;
+}
+
+.promo a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.logo{
+    width: 250px;
+    height: auto;
+    padding: 5px 15px;
+    margin-top: 12px;
+    margin-left: 50px;
+    background: linear-gradient(90deg, rgba(255,106,0,1) 0%, rgba(138,43,226,1) 100%);
+    border-radius: 50px;
+}
+
+
+nav{
+    background: #fff;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 3px 10px 1px rgba(119, 119, 119, 0.5);
+}
+
+nav ul{
+    float: right;
+    margin-right: 350px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 35px;
+}
+
+nav ul li a{
+    color: #707070;
+    font-size: 17px;
+    padding: 7px 13px;
+}
+
+a.active, a:hover{
+    color: #FF6a00;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: #707070;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+/* Section Présentation */
+
+.presentation{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.illustration-presentation{
+    width: 50%;
+    float: left;
+    margin-left: 200px;
+}
+
+.illustration-presentation img{
+    width: 800px;
+    height: auto;
+}
+
+.content-presentation{
+    width: 50%;
+    float: right;
+    margin-right: 200px;
+    margin-top: 80px;
+}
+
+.content-presentation p{
+    font-family: "Permanent Marker", serif;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.content-presentation p span{
+    font-family: "Permanent Marker", serif;
+    font-size: 28px;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+h1 span{
+    font-weight: bold;
+}
+
+.content-presentation a{
+    background: linear-gradient(90deg, rgba(255,106,0,1) 0%, rgba(138,43,226,1) 100%);
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 25px;
+    display: block;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 38px;
+    margin-left: 150px;
+    transition: .5s linear;
+}
+
+.content-presentation a:hover{
+    background: linear-gradient(90deg, rgba(138,43,226,1) 0%, rgba(255,106,0,1) 100%);
+}
+
+
+/* Section Coachs */
+
+.coachs{
+    display: flex;
+    width: 100%;
+}
+
+.illustration-coachs{
+    width: 50%;
+    float: left;
+    margin-right: 200px;
+}
+
+.illustration-coachs img{
+    width: 800px;
+    height: auto;
+}
+
+.content-coachs{
+    width: 50%;
+    float: right;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+.content-coachs p{
+    font-family: "Permanent Marker", serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.content-coachs p span{
+    font-family: "Permanent Marker", serif;
+    font-size: 28px;
+}
+
+.content-coachs h2{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.content-coachs h2 span{
+    font-weight: bold;
+}
+
+
+.content-coachs a{
+    color: #707070;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.content-coachs a:hover{
+    color: #8A2BE2;
+}
+
+.content-coachs a i{
+    color: #8A2BE2;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.content-coachs a i:hover{
+    color: #FF6a00;
+}
+
+/* Section Cours */
+
+.cours{
+    display: flex;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.illustration-cours{
+    width: 50%;
+    float: left;
+    margin-left: 200px;
+}
+
+.illustration-cours img{
+    width: 800px;
+    height: auto;
+    margin-bottom: 80px;
+}
+
+.content-cours{
+    width: 50%;
+    float: right;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+.content-cours p{
+    font-family: "Permanent Marker", serif;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.content-cours p span{
+    font-family: "Permanent Marker", serif;
+    font-size: 28px;
+}
+
+.content-cours h2{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.content-cours h2 span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content-cours a{
+    color: #707070;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.content-cours a:hover{
+    color: #8A2BE2;
+}
+
+.content-cours a i{
+    color: #8A2BE2;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.content-cours a i:hover{
+    color: #FF6a00;
+}
+
+
+/* Section Abonnements */
+
+.title-abonnements{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Permanent Marker", serif;
+}
+
+.title-abonnements .abonnements-span{
+    font-family: "Permanent Marker", serif;
+}
+
+.abonnements{
+    background: linear-gradient(90deg, rgba(255,106,0,1) 0%, rgba(138,43,226,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.card{
+    background: #fff;
+    width: 310px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 10px 10px 10px 1px rgba(37, 37, 37, 0.5);
+}
+
+.card h3 {
+    padding-top: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.card .price{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+
+.card p{
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.card h3{
+    font-family: "Montserrat", serif;
+    color: #8A2BE2;
+}
+
+.card span{
+    font-family: "Permanent Marker", serif;
+}
+
+.abo-container a{
+    background: #fff;
+    color: #8A2BE2;
+    font-size: 16px;
+    border-radius: 25px;
+    width: 120px;
+    height: 32px;
+    text-align: center;
+    line-height: 33px;
+    margin-top: 20px;
+    margin-left: 200px;
+    box-shadow: 10px 10px 10px 1px rgba(37, 37, 37, 0.3);
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+}
+
+.abo-container a:hover{
+    color: #FF6a00;
+}
+
+.btn-card{
+    display: block;
+}
+
+
+
+/* Section App*/
+
+.app{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.illustration-app{
+    width: 50%;
+    float: left;
+    margin-right: 200px;
+}
+
+.illustration-app img{
+    width: 800px;
+    height: auto;
+}
+
+.content-app{
+    width: 50%;
+    float: right;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+
+.content-app img{
+    width: 150px;
+    height: auto;
+}
+
+.content-app p{
+    font-family: "Permanent Marker", serif;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.content-app p span{
+    font-family: "Permanent Marker", serif;
+    font-size: 28px;
+}
+
+.content-app h2{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.content-app h2 span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.apple{
+    cursor: pointer;
+}
+
+.android{
+    cursor: pointer;
+}
+
+
+
+/* Section Bandeau*/
+
+.bandeau{
+    display: flex;
+    justify-content: space-between;
+    width: 1250px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.picto{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 380px;
+}
+
+.picto p{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    font-size: 16px;
+}
+
+.picto h3{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    font-size: 17px;
+}
+
+.p1 img{
+    width: 100px;
+    height: auto;
+}
+
+.p2 img{
+    width: 100px;
+    height: auto;
+}
+
+
+
+/* Section Footer */
+
+footer{
+    background: linear-gradient(90deg, rgba(255,106,0,1) 0%, rgba(138,43,226,1) 100%);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.left{
+    width: 33.33%;
+    line-height: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.left a{
+    color: #fff;
+}
+
+.left a:hover{
+    text-decoration: underline;
+}
+
+.left img{
+    width: 350px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.center{
+    margin-top: 10px;
+    width: 33.33%;
+    line-height: 40px;
+    text-align: center;
+}
+
+.center .subtitle{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.center a{
+    color: #fff;
+}
+
+.center a:hover{
+    text-decoration: underline;
+}
+
+.social-media{
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.social-media i{
+    margin-right: 15px;
+}
+
+.social-media i:hover{
+    font-size: 35px;
+}
+
+
+.right{
+    width: 33.33%;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.right a{
+    color: #fff;
+}
+
+.right a:hover{
+    text-decoration: underline;
+}
+
+
+/* Section Parrainage */
+
+.parrainage{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.illustration-parrainage{
+    width: 50%;
+    float: left;
+    margin-left: 200px;
+}
+
+.illustration-parrainage img{
+    width: 800px;
+    height: auto;
+}
+
+.content-parrainage{
+    width: 50%;
+    float: right;
+    margin-right: 200px;
+    margin-top: 80px;
+}
+
+.content-parrainage p{
+    font-family: "Permanent Marker", serif;
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+
+.content-parrainage p span{
+    font-family: "Permanent Marker", serif;
+    font-size: 28px;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+h1 span{
+    font-weight: bold;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+@media (max-width:425px){
+    
+    
+    .gotopbtn{
+        display: none;
+    }
+    
+    .promo{
+        display: none;
+    }
+    
+    .bandeau{
+        display: none;
+    }
+    
+    /* Section Header */
+    
+    .checkbtn{
+        display: block;
+    }
+    
+    nav ul{
+        z-index: 1;
+    }
+    
+    ul{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background: #fff;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        font-size: 22px;
+        z-index: 1;
+    }
+    
+    #check:checked ~ ul{
+        left: 0;
+    }
+    
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    
+    nav ul li a{
+        color: #707070;
+    }
+    
+    a.active, a:hover{
+    color: #FF6a00;
+    font-weight: bold;
+}
+
+/* Section Présentation */
+
+.presentation{
+    flex-direction: column;
+    width: 425px;
+}
+
+.illustration-presentation{
+    width: 425px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.illustration-presentation img{
+    width: 350px;
+    height: auto;
+}
+
+.content-presentation{
+    width: 425px;
+    margin: 0 10px;
+}
+
+.content-presentation p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-presentation p span{
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-presentation h1{
+    font-size: 18px;
+}
+
+.content-presentation a{
+    margin-left: 115px;
+}
+
+/* Section Coachs */
+
+.coachs{
+    margin-top: 50px;
+    flex-direction: column;
+    width: 425px;
+}
+
+.illustration-coachs{
+    width: 425px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.illustration-coachs img{
+    width: 350px;
+    height: auto;
+}
+
+.content-coachs{
+    width: 425px;
+    margin: 0 10px;
+}
+
+.content-coachs p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-coachs p span{
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-coachs h2{
+    font-size: 18px;
+}
+
+.content-coachs a{
+    margin-left: 45px;
+}
+
+/* Section Cours */
+
+.cours{
+    flex-direction: column;
+    width: 425px;
+}
+
+.illustration-cours{
+    display: none;
+}
+
+.content-cours{
+    width: 425px;
+    margin: 0 10px;
+    margin-bottom: 50px;
+}
+
+.content-cours p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-cours p span{
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-cours h2{
+    font-size: 18px;
+}
+
+.content-cours a{
+    margin-left: 125px;
+}
+
+/* Section Abonnements */
+
+.abonnements{
+    flex-direction: column;
+    height: 1100px;
+    width: 425px;
+    padding-bottom: 50px;
+
+}
+
+.abo-container{
+    width: 425px;
+    height: 425px;
+    position: relative;
+    float: left;
+}
+
+.card{
+    position: absolute;
+    top: 0;
+    left: -240px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.abo-container a{
+    display: none;
+}
+
+
+/* Section App */
+
+.app{
+    flex-direction: column;
+    width: 425px;
+    margin-top: 50px;
+}
+
+.illustration-app{
+    display: none;
+}
+
+.content-app{
+    width: 425px;
+    margin: 0 10px;
+}
+
+.content-app p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-app p span{
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-app h2{
+    font-size: 18px;
+}
+
+.content-app a{
+    margin-left: 45px;
+}
+
+.content-app img{
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+
+/* Section Footer */
+
+footer{
+    margin: 0 auto;
+    height: 650px;
+    width: 425px;
+    flex-direction: column;
+}
+
+.left{
+    width: 425px;
+}
+
+.center{
+    width: 425px;
+}
+
+.right{
+    width: 425px;
+}
+
+}
