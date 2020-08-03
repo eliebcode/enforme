@@ -46,7 +46,7 @@
                                 <h2>Équipement</h2>
                                 <p>Chez En Forme ! Vous trouverez les équipements dernier cri de Matrix ou Technogym.<br><br>
                                 Des appareils de fitness professionnels de qualité qui vous permettront de profiter pleinement de vos entraînements.</p>
-                                <a href="musculation.php" class="btn" title="Équipement et cours pour musculation">En savoir plus</a>
+                                <a href="#" class="btn" title="Équipement et cours pour musculation">En savoir plus</a>
                             </div>
                         </div>
                         <div class="face face2">
@@ -59,7 +59,7 @@
                                 <h2>Équipement</h2>
                                 <p>Chez En Forme ! Vous trouverez les équipements dernier cri de Matrix ou Technogym.<br><br>
                                 Des appareils de fitness professionnels de qualité qui vous permettront de profiter pleinement de vos entraînements.</p>
-                                <a href="fitness.php" class="btn" title="Équipement et cours pour fitness">En savoir plus</a>
+                                <a href="#" class="btn" title="Équipement et cours pour fitness">En savoir plus</a>
                             </div>
                         </div>
                         <div class="face face2">
@@ -71,7 +71,7 @@
                             <div class="content">
                                 <h2>Cours</h2>
                                 <p>Nos cours collectifs vous permettent d'avoir des instructeurs certifiés.<br><br> Ils vous motivent à donner le meilleur de vous-même et vous conseillent pour que vous effectuiez correctement votre entraînement.</p>
-                                <a href="collectif.php" class="btn" title="Équipement et cours pour collectif">En savoir plus</a>
+                                <a href="#" class="btn" title="Équipement et cours pour collectif">En savoir plus</a>
                             </div>
                         </div>
                         <div class="face face2">
@@ -115,8 +115,8 @@
             </div>
             <div class="center">
                 <p class="subtitle">Liens utiles</p>
-                <a href="mentions.php" title="Mentions légales">Mentions Légales</a><br>
-                <a href="credits.php" title="Crédits">Crédits</a>
+                <a href="#" title="Mentions légales">Mentions Légales</a><br>
+                <a href="#" title="Crédits">Crédits</a>
                 <p>Réalisé par E.Bugaj</p>
                 <div class="social-media">
                     <a href="https://www.facebook.com" title="Page Facebook En Forme !"><i class="fab fa-facebook-square"></i></a>

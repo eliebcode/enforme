@@ -55,7 +55,7 @@
                     <h2>Une entreprise<br><span>à succès </span>!</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <span>labore et dolore</span> magna aliqua. 
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <span>ex ea commodo</span> consequat.</p>
-                    <a href="devis.php" title="Faire un devis">Demander un devis<i class="fas fa-arrow-circle-right"></i></a>
+                    <a href="#" title="Faire un devis">Demander un devis<i class="fas fa-arrow-circle-right"></i></a>
                 </div>
                 <div class="illustration-combien">
                     <img src="img/combien.png" class="img-combien" alt="Illustration de l'investissement et de la rentabilité">
@@ -169,8 +169,8 @@
             </div>
             <div class="center">
                 <p class="subtitle">Liens utiles</p>
-                <a href="mentions.php" title="Mentions légales">Mentions Légales</a><br>
-                <a href="credits.php" title="Crédits">Crédits</a>
+                <a href="#" title="Mentions légales">Mentions Légales</a><br>
+                <a href="#" title="Crédits">Crédits</a>
                 <p>Réalisé par E.Bugaj</p>
                 <div class="social-media">
                     <a href="https://www.facebook.com" title="Page Facebook En Forme !"><i class="fab fa-facebook-square"></i></a>

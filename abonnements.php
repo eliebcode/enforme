@@ -155,8 +155,8 @@
             </div>
             <div class="center">
                 <p class="subtitle">Liens utiles</p>
-                <a href="mentions.php" title="Mentions légales">Mentions Légales</a><br>
-                <a href="credits.php" title="Crédits">Crédits</a>
+                <a href="#" title="Mentions légales">Mentions Légales</a><br>
+                <a href="#" title="Crédits">Crédits</a>
                 <p>Réalisé par E.Bugaj</p>
                 <div class="social-media">
                     <a href="https://www.facebook.com" title="Page Facebook En Forme !"><i class="fab fa-facebook-square"></i></a>
